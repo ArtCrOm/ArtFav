@@ -1,0 +1,10 @@
+@(usuario: Usuario)
+{
+	"id": "@usuario.id",
+	"nombre": "@usuario.nombre",
+	"apellidos": "@usuario.apellidos",
+	"telefono": "@usuario.telefono",
+	"email": "@usuario.email",
+	"direccion": "@usuario.direccion",
+	@_usuario_links(usuario)
+}

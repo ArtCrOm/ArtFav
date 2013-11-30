@@ -1,0 +1,5 @@
+@(url: Url)
+{
+	"id": "@url.id",
+	"direccion": "@url.direccion"
+}
